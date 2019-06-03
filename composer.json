@@ -2,7 +2,7 @@
 	"name" : "noud/gripp_api",
 	"description" : "Gripp API",
 	"type" : "SDK",
-	"homepage" : "https://www.gripp.com/support/overgang_apiv2_naar_apiv3",
+	"homepage" : "https://api.gripp.com/public/api3.php",
 	"license" : "MIT",
 	"authors" : [{
 			"name" : "Gripp.com B.V.",
@@ -18,8 +18,8 @@
 	],
 	"support" : {
 		"email" : "support@gripp.com",
-		"source" : "https://github.com/noud/gripp_api",
-		"wiki" : "https://www.gripp.com//support/werken-met-de-gripp-api",
+		"source" : "https://www.gripp.com//support/werken-met-de-gripp-api",
+		"wiki" : "https://www.gripp.com/blog",
 		"issues" : "https://github.com/noud/gripp_api/issues"
 	},
 	"require" : {

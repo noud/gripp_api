@@ -18,13 +18,23 @@ final class API extends TestCase
     public function setUp(): void
     {
         $apikey = '[hier API-sleutel invullen]';
-        $url = 'https://domeinnaam.gripp.com/public/api2.php';
 
-        $this->API = new com_gripp_API($apikey, $url);
+        $this->API = new com_gripp_API($apikey);
     }
 
     /**
-     * Test adding a failure.
+     * Test Autopaging.
+     */
+    public function testAutopaging(): void
+    {
+        $this->API->setAutopaging(true);
+        $autopaging = $this->API->getAutopaging();
+
+        $this->assertTrue($autopaging);
+    }
+
+    /**
+     * Test Batchmode.
      */
     public function testBatchmode(): void
     {
