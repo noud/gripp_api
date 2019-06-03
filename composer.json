@@ -38,5 +38,8 @@
 		"JSON-RPC",
 		"Gripp"
 	],
-	"minimum-stability" : "stable"
+	"minimum-stability" : "stable",
+	"require-dev": {
+		"phpunit/phpunit": "^8.1"
+	}
 }
