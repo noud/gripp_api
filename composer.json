@@ -40,10 +40,10 @@
 		"php",
 		"php56",
 		"php53",
-		"php7",
 		"php71",
 		"php72",
-		"curlphp"
+		"curlphp",
+		"PHP7"
 	],
 	"minimum-stability" : "stable",
 	"require-dev" : {
