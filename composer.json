@@ -35,9 +35,8 @@
 		}
 	},
 	"keywords" : [
-		"API",
-		"JSON-RPC",
-		"Gripp"
+		"api",
+		"json-rpc"
 	],
 	"minimum-stability" : "stable",
 	"require-dev": {
