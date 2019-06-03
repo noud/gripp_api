@@ -1,0 +1,42 @@
+{
+	"name" : "noud/gripp_api",
+	"description" : "Gripp API",
+	"type" : "SDK",
+	"homepage" : "https://www.gripp.com/support/overgang_apiv2_naar_apiv3",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Gripp.com B.V.",
+			"email" : "info@gripp.com",
+			"homepage" : "http://gripp.com",
+			"role" : "author"
+		}, {
+			"name" : "Noud de Brouwer",
+			"email" : "noud4@home.nl",
+			"homepage" : "https://github.com/noud",
+			"role" : "composer"
+		}
+	],
+	"support" : {
+		"email" : "support@gripp.com",
+		"source" : "https://github.com/noud/gripp_api",
+		"wiki" : "https://www.gripp.com//support/werken-met-de-gripp-api",
+		"issues" : "https://github.com/noud/gripp_api/issues"
+	},
+	"require" : {
+		"php" : ">=5.6"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"" : "src/"
+		},
+		"psr-4" : {
+			"API\\Tests\\" : "tests/"
+		}
+	},
+	"keywords" : [
+		"API",
+		"JSON-RPC",
+		"Gripp"
+	],
+	"minimum-stability" : "stable"
+}
