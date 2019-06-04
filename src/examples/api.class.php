@@ -1,4 +1,12 @@
 <?php
+
+/**
+ * @method array tag_create(array $fields)
+ * @method array tag_delete(int $id)
+ * @method array tag_get(array $filters, array $options)
+ * @method array tag_getone(array $filters, array $options)
+ * @method array tag_update(int $id, array $fields)
+ */
 class com_gripp_API{
 
     /*
